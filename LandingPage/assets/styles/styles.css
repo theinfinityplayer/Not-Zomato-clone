@@ -150,3 +150,21 @@ section.nearby div.box:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
 }
+
+section.app{
+    min-height:300px;
+    background-color: #FEFBF6;
+}
+
+section.app div.container{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+}
+
+section.app div.container img{
+    display: block;
+    max-width: 300px;
+}
