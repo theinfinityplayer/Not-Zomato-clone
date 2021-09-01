@@ -86,7 +86,7 @@ div.searchbox div{
     display:flex;
     align-items: center;
     height: 50px;
-    margin: 0px 50px;
+    margin: 0px 5px;
 }
 
 header div.searchbox i{
@@ -108,12 +108,19 @@ header div.searchbox div.sep{
 }
 
 header div.searchbox div.input{
-    flex-grow: 80%;
+    flex-grow: 80;
 }
 
 header div.searchbox div.input input{
     width: 100%;
+    align-self: center;
     font-size: 1rem;
+}
+
+header div.searchbox div.select select {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #757575;
 }
 
 /* ---------------header section complete----------*/
@@ -211,7 +218,8 @@ section.app div.input input{
 section.app div.input button{
     background-color:#ED5A6B;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 100;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -229,4 +237,41 @@ section.app div.form div.download img{
     display: inline-block;
     max-width: 150px;
     margin: 5px 5px;
+}
+
+/* section options */
+
+section.options{
+    min-height: 60vh;
+}
+
+section.options div.conmtainer{
+    width: 90%;
+    margin: 30px auto;
+}
+
+section.options div.container h2 {
+    font-size: 2rem;
+}
+
+section.options div.container h3 {
+    font-size: 1.6rem;
+}
+
+section.options div.container div {
+    margin-top: 40px;
+}
+
+section.options div.container div ul{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.options div.container div ul li{
+    margin: 3px 10px;
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 100;
 }
